@@ -41,7 +41,7 @@ function getUsers() {
 					{
 						url: randomUrl(),
 						posted: randomDate(),
-						content: `I love Svelte!! ❤️`,
+						content: `I love Svelte! ❤️`,
 						likes: 24
 					},
 					{
