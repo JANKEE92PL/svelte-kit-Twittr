@@ -1,3 +1,8 @@
+# Twittr 
+
+![landing page](https://user-images.githubusercontent.com/65852150/181611634-c542bdaf-e029-4406-9190-de3eb029160a.png)
+
+
 ## Install Dependencies
 
 ```bash
