@@ -1,7 +1,7 @@
 <script lang="ts">
+	import Compose from '$root/components/compose.svelte'
 	import Tweet from '$root/components/tweet.svelte'
 	import type { TweetType } from '$root/types'
-	import Compose from '$root/components/compose.svelte'
 
 	export let tweets: TweetType[] = []
 </script>
@@ -12,13 +12,12 @@
 
 <h1>Feed</h1>
 
+<Compose />
+
 {#each tweets as tweet (tweet.id)}
 	<Tweet {tweet} />
 {/each}
 
-<Compose />
-
-<!-- ... -->
 <style>
 	h1 {
 		position: sticky;

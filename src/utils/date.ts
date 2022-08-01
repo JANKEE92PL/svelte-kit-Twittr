@@ -16,7 +16,7 @@ export function timePosted(createdAt: Date): string {
 		}
 
 		return Intl.DateTimeFormat('en-US', {
-			dateStyle: 'medium'
+			dateStyle: 'medium',
 		}).format(posted)
 	} catch (error) {
 		throw new Error(`💩 Something went wrong: ${error}`)

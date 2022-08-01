@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import { fly } from 'svelte/transition'
 </script>
 
