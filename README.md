@@ -59,4 +59,4 @@ npm run build && npm run preview
 ```
 
 # View Deployment
-[LIVE DEMO](https://svelte-kit-twittr-i7esidgj1-jankee92pl.vercel.app/)
+[LIVE DEMO](https://svelte-kit-twittr.vercel.app/)
