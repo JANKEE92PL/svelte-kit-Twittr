@@ -16,13 +16,14 @@
 
 <div class="error">
 	<h1>{title}</h1>
-	<img
-		src="/10.svg"
-		alt="404"
-	/>
+	<a class="btn" href="/">Come Back Home 🏠</a>
+	<img src="/10.svg" alt="404" />
 </div>
 
 <style>
+	.home:hover {
+		opacity: 90%;
+	}
 	.error {
 		height: 100vh;
 		display: grid;
