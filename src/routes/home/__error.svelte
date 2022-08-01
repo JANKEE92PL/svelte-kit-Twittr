@@ -4,8 +4,8 @@
 	export const load: Load = ({ error, status }) => {
 		return {
 			props: {
-				title: `${status}: ${error.message}`
-			}
+				title: `${status}: ${error.message}`,
+			},
 		}
 	}
 </script>
@@ -16,6 +16,7 @@
 
 <div class="error">
 	<h1>{title}</h1>
+
 	<img src="/dancing.webp" alt="Person dancing" />
 </div>
 

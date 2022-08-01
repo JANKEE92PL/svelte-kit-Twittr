@@ -4,8 +4,8 @@
 	export const load: Load = ({ error, status }) => {
 		return {
 			props: {
-				title: `${status}: ${error.message}`
-			}
+				title: `${status}: ${error.message}`,
+			},
 		}
 	}
 </script>
@@ -16,8 +16,7 @@
 
 <div class="error">
 	<h1>{title}</h1>
-	<a class="btn" href="/">Come Back Home 🏠</a>
-	<img src="/10.svg" alt="404" />
+	<img src="/error.webp" alt="Surprised cat" />
 </div>
 
 <style>
@@ -30,8 +29,8 @@
 	}
 
 	img {
-		max-width: 50vw;
-		max-height: 70vh;
+		width: 200px;
+		height: 200px;
 		border-radius: 50%;
 		object-fit: cover;
 	}

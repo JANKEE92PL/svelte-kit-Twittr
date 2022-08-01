@@ -1,35 +1,59 @@
-# Twittr 
+# SvelteKit For Beginners
 
-![landing page](https://user-images.githubusercontent.com/65852150/181611634-c542bdaf-e029-4406-9190-de3eb029160a.png)
+Learn full stack web development with SvelteKit.
 
+## Project Setup
 
-## Install Dependencies
+🧑‍🤝‍🧑 Clone the project
 
-```bash
-npm install
+```sh
+git clone https://github.com/joysofcode/sveltekit-for-beginners.git
 ```
 
+📦️ Install dependencies
 
+```sh
+npm i
+```
 
-## Developing
+## Database
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+✏️ Rename `.env.example` to `.env`
 
-```bash
+```
+DATABASE_URL="file:./dev.db"
+```
+
+🔨 Create the database from the Prisma schema
+
+```sh
+npx prisma db push
+```
+
+🌱 Seed the database
+
+```sh
+npx prisma db seed
+```
+
+🔎 Inspect your database with Prisma Studio
+
+```
+npx prisma studio
+```
+
+## Development
+
+🦄 Start the project and open http://localhost:3000/
+
+```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Production
 
-To create a production version of your app:
+🔨 Build and preview
 
-```bash
-npm run build
+```sh
+npm run build && npm run preview
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
