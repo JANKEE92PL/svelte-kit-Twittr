@@ -21,9 +21,6 @@
 </div>
 
 <style>
-	.home:hover {
-		opacity: 90%;
-	}
 	.error {
 		height: 100vh;
 		display: grid;
